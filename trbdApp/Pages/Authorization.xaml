@@ -1,0 +1,20 @@
+﻿<Page x:Class="trbdApp.Pages.Authorization"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:trbdApp.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Authorization">
+
+    <Grid>
+        <Button x:Name="btnBack" Content="Назад" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,50,0,0" Width="100" Height="30" Click="btnBack_Click"></Button>
+        <TextBlock Text="Введите свой логин и пароль" FontSize="26" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="50"></TextBlock>
+        <TextBlock Text="Login:" FontSize="26" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="100,0,0,0"></TextBlock>
+        <TextBox x:Name="tbLogin" Text="" Width="400" Height="30" Margin="0,0,0,0" FontSize="20"></TextBox>
+        <TextBlock Text="Password:" FontSize="26" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="60,150,0,0"></TextBlock>
+        <TextBox x:Name="tbPassword" Text="" Width="400" Height="30" Margin="0,150,0,0" FontSize="20"></TextBox>
+        <Button x:Name="btnEnter" Content="Войти" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,200,30" FontSize="26" Height="50" Width="150" Click="Enter_Click"></Button>
+    </Grid>
+</Page>

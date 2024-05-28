@@ -1,0 +1,17 @@
+﻿<Page x:Class="trbdApp.Pages.Main"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:trbdApp.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Main">
+
+    <Grid>
+        <TextBlock Text="Добро пожаловать в систему лизинговой компании, чтобы продолжить, зарегистрируйтесь или авторизуйтесь" TextAlignment="Center" VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="26" TextWrapping="Wrap" Margin="30" ></TextBlock>
+        <Button Content="Авторизоваться" Height="50" Width="170" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Center" Click="Autho_Click_1"></Button>
+        <Button Content="Зарегистрироваться" Height="50" Width="170" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0, 0, 0, -150" Click="Reg_Click"></Button>
+        
+    </Grid>
+</Page>
